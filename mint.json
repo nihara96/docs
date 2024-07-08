@@ -15,6 +15,7 @@
       "to": "#07C983"
     }
   },
+  "openapi": ["api-reference/indexify.yaml"],
   "topbarLinks": [
     {
       "name": "Support",
@@ -29,6 +30,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Indexify",
+      "url": "api-indexify"
     }
   ],
   "anchors": [
@@ -72,6 +77,24 @@
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-indexify/introduction"
+      ]
+    },
+    {
+      "group": "Namespace",
+      "pages": [
+        "api-indexify/namespace/create-extraction-graph",
+        "api-indexify/namespace/create-namespace",
+        "api-indexify/namespace/get-namespace",
+        "api-indexify/namespace/list-namespace",
+        "api-indexify/namespace/retrieve-index",
+        "api-indexify/namespace/upload-files",
+        "api-indexify/namespace/upload-text-documents"
       ]
     },
     {
