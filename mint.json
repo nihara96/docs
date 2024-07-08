@@ -15,7 +15,7 @@
       "to": "#07C983"
     }
   },
-  "openapi": ["api-reference/indexify.yaml"],
+  "openapi": ["api-indexify/openapi.yaml"],
   "topbarLinks": [
     {
       "name": "Support",
